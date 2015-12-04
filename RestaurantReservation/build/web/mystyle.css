@@ -1,0 +1,124 @@
+/* mystyle.css by Brett Burley-Inners on 12/3/2015 
+ * Style your pages here 
+ */
+body {
+    font-family: "PT Sans", sans-serif;
+    background-color: rgb(254, 255, 255);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+div {
+    text-align: left;
+}
+
+#content h1 {
+    margin: auto;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#content h2 {
+    text-align: center;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+#bigTitle {
+    margin: auto;
+    text-align: center;
+}
+
+#bigTitle h1 {
+    font-family: "Kreon", serif;
+    font-size: 3em;
+    font-variant: small-caps;
+    font-weight: bold;
+    color: rgb(40, 23, 0);
+    margin-bottom: 0px;
+}
+
+#bigTitle h5 {
+    font-family: "PT Sans", sans-serif;
+    font-style: italic;
+    color: rgb(40, 23, 0);
+    margin-top: 0px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+h1 a:hover {
+    color: rgb(88, 56, 41);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(88, 56, 41);
+    text-decoration: underline overline;
+}
+
+a:visited {
+    color: rgb(40, 23, 0);
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a:link {
+    color: rgb(40, 23, 0);
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+    font-family: "PT Sans", sans-serif;
+}
+
+thead {
+    font-family: "Kreon", serif;
+    background-color: rgb(230, 205, 174);
+    border-bottom: 2px solid rgb(40, 23, 0);
+}
+
+#type {
+    text-align: center;
+}
+
+#price {
+    text-align: right;
+}
+
+#item {
+    text-align: center;
+}
+
+tr {
+    border-top: 2px solid rgb(230, 205, 174);
+    border-bottom: 2px solid rgb(230, 205, 174);
+}
+
+tbody tr:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+td {
+    padding: 2px;
+    font-size: .9em;
+    height: 1.5em;
+}
